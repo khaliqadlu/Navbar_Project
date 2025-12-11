@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<title>Data Pengunjung</title>
+		<style>
+		
+			.navbar {
+					position: flex;
+					width: 100%;
+					color: #8FABD4;
+					background-color: #B6AE9F;
+					height: 60px;
+					display: flex;
+					top: 0;
+					box-sizing: border-box;
+					z-index: 1000;
+					align-items: center;
+					justify-content: space-between;
+				
+				}
+				
+				.nav-links {
+					list-style: none;
+					display: flex;
+					gap: 25px;
+					margin-right: 10px;
+						
+				}
+				
+				.nav-links li a {
+					color: #8FABD4;
+					text-decoration: none;
+					font-size: 17px;
+					transition: 0.3s;
+					
+					background-color: #DEDED1;
+					color: black;
+					padding: 10px 20px;
+					border-radius: 20%;
+				}
+				
+				.nav-links li a:hover {
+					background-color: white;
+					color: blue;
+				}
+				
+				#content {
+					padding: 80px 50px;
+					background: linear-gradient( 135deg, #FBF3D1 , #DEDED1);
+					color: black;
+					box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+					text-align: center;
+				 }
+				
+				.logo {
+					color: black;
+					text-shadow: 0 0 7px #fff, 0 0 21px #8FABD4;
+					margin-left: 10px;
+					font-size: 21px;
+					font-weight: bold;
+					background-color: #DEDED1;
+					border-radius: 50%;
+				}
+				
+				
+			.card {
+				width: 200px; /* untuk pengingat or comment*/
+				border: 1px solid #ddd;
+				border-radius: 10px;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+				overflow: hidden;
+				text-align: center;
+				margin: 15px;
+			}
+			
+			.card:hover {
+				background-color: grey;
+				color: white;
+			}
+			
+			.card-img {
+				width: 100%;
+				height: 100px;
+				object-fit: cover;
+				padding: 15px;
+				align-items: center;
+			}
+			
+			.card-btn {
+				background-color: blue;
+				color: white;
+				border: none;
+				padding: 10px 15px;
+				border-radius: 5px;
+				cursor: pointer;
+				margin: 10px 0 5px;
+			}
+			
+			.card-title {
+				font-size: 25px; 
+			}
+			
+			.card-subtitle {
+				font-size: 15px;
+			}
+		</style>
+	</head>
+		<body>
+		<nav class="navbar">
+		<div class="logo">
+			AI
+		</div>
+			<ul class="nav-links">
+				<Li><a href="C:\Users\Advan\OneDrive\Documents\Folder tugas\folder tugas html with npp\with pak istaqim\Latihan_Navbar\index.html">Beranda</a></li>
+				<LI><a href="C:\Users\Advan\OneDrive\Documents\Folder tugas\folder tugas html with npp\with pak istaqim\Tugas_ProfileSaya.html">profile</a></li>
+				<li><a href="#">Kontak</a></li>
+				<li><a href="C:\Users\Advan\OneDrive\Documents\Folder tugas\folder tugas html with npp\with pak istaqim\Latihan_Navbar\Data_Pengunjung.html"">Data Pengunjung</a></li>
+			</ul>
+		</nav>
+			<center>
+				Daftar Kunjungan
+			</center>
+			<div class="card">
+				<img src="img/khaliq.jpg" class="card-img">
+				<h4 class="card-title">Who Knows</h4>
+				<p class="card-subtitle">Akun Profesional | Programmer | UI/UX</p>
+				<button class="card-btn">
+					lihat profile
+				</button>
+			</div>
+			<div class="card">
+				<img src="img/khaliq.jpg" class="card-img">
+				<h4 class="card-title">Adik JB</h4>
+				<p class="card-subtitle">Akun Dokter GG nan Jago</p>
+				<button class="card-btn">
+					lihat profile
+				</button>
+			
+		</body>
+	</html>
